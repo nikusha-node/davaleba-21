@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.color {
+    color: #4EA08D;
+}
+
+.middle {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.middle a {
+    text-decoration-line: none;
+    color: black;
+}
+
+.right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.right button {
+    width: 100px;
+    height: 35px;
+    background-color: #4EA08D;
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
